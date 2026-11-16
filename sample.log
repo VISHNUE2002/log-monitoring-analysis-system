@@ -1,0 +1,27 @@
+2026-11-16 10:00:01 [INFO] 192.168.1.10 - User 'alice' logged in successfully.
+2026-11-16 10:01:15 [INFO] 192.168.1.11 - User 'bob' accessed dashboard.
+2026-11-16 10:02:00 [WARNING] 192.168.1.12 - High memory usage detected (84%).
+2026-11-16 10:03:10 [INFO] 192.168.1.10 - User 'alice' uploaded document 'report.pdf'.
+
+2026-11-16 10:05:01 [ERROR] 192.168.1.50 - Failed login attempt for user 'admin'
+2026-11-16 10:05:05 [ERROR] 192.168.1.50 - Failed login attempt for user 'admin'
+2026-11-16 10:05:12 [ERROR] 192.168.1.50 - Failed login attempt for user 'admin'
+2026-11-16 10:05:20 [ERROR] 192.168.1.50 - Failed login attempt for user 'admin'
+
+2026-11-16 10:08:00 [INFO] 192.168.1.15 - User 'charlie' updated profile.
+
+2026-11-16 10:14:01 [ERROR] 192.168.1.99 - Database connection timeout on query ID 101
+2026-11-16 10:14:15 [ERROR] 192.168.1.99 - Database connection timeout on query ID 102
+2026-11-16 10:14:30 [ERROR] 192.168.1.99 - Database connection timeout on query ID 103
+2026-11-16 10:15:02 [ERROR] 192.168.1.99 - Database connection timeout on query ID 104
+2026-11-16 10:15:18 [ERROR] 192.168.1.99 - Database connection timeout on query ID 105
+2026-11-16 10:15:45 [ERROR] 192.168.1.99 - Database connection timeout on query ID 106
+2026-11-16 10:16:10 [ERROR] 192.168.1.99 - Database connection timeout on query ID 107
+2026-11-16 10:16:30 [ERROR] 192.168.1.99 - Database connection timeout on query ID 108
+2026-11-16 10:16:55 [ERROR] 192.168.1.99 - Database connection timeout on query ID 109
+2026-11-16 10:17:15 [ERROR] 192.168.1.99 - Database connection timeout on query ID 110
+2026-11-16 10:17:40 [ERROR] 192.168.1.99 - Database connection timeout on query ID 111
+
+CORRUPTED LOG ENTRY WITHOUT TIMESTAMP OR IP
+2026-11-16 INVALID_TIMESTAMP [ERROR] - Missing fields here
+2026-11-16 10:20:00 [INFO] 192.168.1.25 - User 'diana' logged out.

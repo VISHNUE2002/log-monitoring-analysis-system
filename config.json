@@ -1,0 +1,10 @@
+{
+    "log_levels":["INFO", "WARNING", "ERROR"],
+    "security_threshold": {
+        "failed_login_threshold":3,
+        "error_burst_window_minutes":5,
+        "error_burst_threshold":10
+    },
+    "default_input_file": "sample.log",
+    "default_output_file": "output_report.json"
+}

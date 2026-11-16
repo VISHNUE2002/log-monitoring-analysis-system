@@ -1,0 +1,39 @@
+{
+    "metadata": {
+        "generated_at": "2026-11-16 17:25:23",
+        "source_files": [
+            "sample.log"
+        ],
+        "system_status": "ALERTS_DETECTED"
+    },
+    "processing_stats": {
+        "valid_entries": 21,
+        "total_offending_ips": 2,
+        "alerts_triggered": 2
+    },
+    "log_level_distribution": {
+        "INFO": 5,
+        "WARNING": 1,
+        "ERROR": 15
+    },
+    "errors_by_ip": {
+        "192.168.1.50": 4,
+        "192.168.1.99": 11
+    },
+    "security_alerts": [
+        {
+            "type": "REPEATED_FAILED_LOGINS",
+            "severity": "HIGH",
+            "ip": "192.168.1.50",
+            "count": 3,
+            "message": "IP 192.168.1.50 exceeded failed login threshold with 3 attempts"
+        },
+        {
+            "type": "HIGH_ERROR_BURST",
+            "severity": "CRITICAL",
+            "count": 11,
+            "window_minutes": 5,
+            "message": "Exceeded 10 errors within 5 minutes"
+        }
+    ]
+}
